@@ -1,0 +1,20 @@
+:root {
+  --font-family: "Karla", sans-serif;
+  ---body-bg: #1e1f25;
+  --btn-bg: #000;
+  --btn-color: #cbcbcb;
+  --btn-color-hover: #fff;
+  --grad-color-1: #eeaf61;
+  --grad-color-2: #fb9062;
+  --grad-color-3: #ee5d6c;
+  --grad-color-4: #ce4993;
+  --grad-color-5: #6a0d83;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(---body-bg);
+  font-family: var(--font-family);
+}
